@@ -1,0 +1,99 @@
+.container {
+  width: 1000px;
+  height: 1140px;
+  font-size: 13px;
+  font-family: tahoma;
+  margin: 0px auto;
+}
+
+.menutop {
+  background-color: #b20054;
+  height: 40px;
+  width: auto;
+}
+.menutop li {
+  list-style-type: none;
+  display: flex;
+  float: left;
+}
+
+.menutop ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.menutop li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border-right: 1px solid #f1f1f1;
+  padding: 10px 15px 11px 15px;
+  float: left;
+}
+
+.menutop li a:hover {
+  color: lawngreen;
+  font-weight: bold;
+  background-color: darkblue;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.menutop li a:active {
+  color: gold;
+}
+
+.banner {
+  height: 280px;
+  width: 1000px;
+}
+
+#id {
+  border-right: 0px;
+}
+
+.detail {
+  text-align: center;
+  line-height: 40px;
+}
+.detail h2 {
+  color: #b20054;
+}
+.gopy {
+  width: 100px;
+  height: 20px;
+  background-color: #b20054;
+  padding: 5px;
+  margin: 10px 0px 20px 450px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+}
+.gopy a {
+  text-decoration: none;
+  color: white;
+}
+.gopy a:hover {
+  color: black;
+}
+form {
+  font-size: 14px;
+}
+.footer {
+  width: 940px;
+  float: left;
+  background-color: #b20054;
+  color: white;
+  padding: 10px 30px;
+}
+.sp img{
+  display: flex;
+  margin: 0 auto;
+  border-radius: 5px;
+  justify-content: space-around;
+}
+.ca{
+  
+}

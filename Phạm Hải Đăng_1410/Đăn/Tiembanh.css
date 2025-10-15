@@ -1,0 +1,163 @@
+.container{
+    width: 1000px;
+    height: 1140px;
+    font-size: 13px;
+    font-family: tahoma;
+    margin: 0px auto;
+}
+
+.menutop{
+    background-color: #b20054;
+    
+    height: 40px;
+    width: auto;
+}
+.menutop li{
+    list-style-type: none;
+    display: flex;
+    float: left;
+}
+
+.menutop ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.menutop li a{
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    border-right: 1px solid #f1f1f1;
+    padding: 10px 15px 11px 15px;
+    float: left;
+}
+
+.menutop li a:hover{
+    color: white;
+    background-color: #1949b5;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.menutop li a:active{
+    color: palegoldenrod;
+}
+
+.banner{
+    height: 280px;
+    width: 1000px;
+}
+
+#id{
+    border-right: 0px;
+}
+
+.detail{
+    width: auto;
+    height: 750px;
+    float: left;
+}
+
+.left{
+    height: auto;
+    width: 270px;
+    float: left;
+}
+
+.lefttop{
+    float: left;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.danhmuc img{
+    float: left;
+    padding: 5px;
+}
+
+.danhmuc{
+    width: 270px;
+    height: 40px;
+    background-color: #b20054;
+    float: left;
+    font-size: 14px;
+    color: white;
+}
+
+.danhmuc h2{
+    padding-top: 8px;
+    float: left;
+    margin: 0px;
+}
+
+.lefttop ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+.lefttop li{
+    display: block;
+    border-bottom: 1px solid gray;
+    list-style-type: none;
+}
+
+.lefttop li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    /*border: 1px solid black;*/
+    font-size: 16px;
+    margin: 10px;
+    line-height: 40px;
+}
+
+.lefttop img{
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.lefttop li a:hover{
+    color: red;
+}
+
+.right{
+    height: auto;
+    width: 700px;
+    margin-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+
+.rightbox{
+    float: left;
+    margin-bottom: 10px;
+    border-bottom: 1px lightgray solid;
+    padding-bottom: 10px;
+}
+
+.rightbox img{
+    float: left;
+    padding: 5px;
+}
+
+.rightbox h2{
+    padding: 0px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.rightbox p{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.footer{
+    width: 940px;
+    float: left;
+    background-color: #b20054;
+    color: white;
+    padding: 10px 30px;
+}
